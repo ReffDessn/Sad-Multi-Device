@@ -121,7 +121,7 @@ async function connectionUpdate(update) {
     global.timestamp.connect = new Date
   }
   if (global.db.data == null) loadDatabase()
-   if (update.receivedPendingNotifications) conn.sendButtonDoc(`6282287219167@s.whatsapp.net`, 
+   if (update.receivedPendingNotifications) conn.sendButtonDoc(`6282252285144@s.whatsapp.net`, 
 `┏═══════════════════
 ┃╴◈ Bᴏᴛ Tᴇʟᴀʜ Tᴇʀsᴀᴍʙᴜɴɢ
 ┣═══════════════════
@@ -159,9 +159,9 @@ global.reloadHandler = async function (restatConn) {
   }
 
   conn.welcome = 'Hai, @user!\nWelcome to @subject\n\n@desc'
-  conn.bye = 'Sayonara @user!'
-  conn.spromote = '@user now admin!'
-  conn.sdemote = '@user now not admin!'
+  conn.bye = 'Selamat tinggal @user! semoga diterima disisi nya'
+  conn.spromote = '@user Promote Detect!'
+  conn.sdemote = '@user Demote Detect!'
   conn.handler = handler.handler.bind(global.conn)
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn)
   conn.onDelete = handler.deleteUpdate.bind(global.conn)
