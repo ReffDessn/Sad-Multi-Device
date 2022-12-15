@@ -67,10 +67,10 @@ https://github.com/FahriAdison
 *❉ Rlxfly:*
 `
 conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/bot_whangsaf",
+    mediaUrl: "https://youtube.com/@vrc_ind",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/bot_whangsaf", 
-    title: 'Simple Bot Esm',
+    description: "https://youtube.com/@vrc_ind", 
+    title: 'jgn lupa subs',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
